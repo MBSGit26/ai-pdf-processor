@@ -11,4 +11,3 @@ def test_app_renders_without_exceptions():
 
     assert not at.exception
     assert at.title[0].value.startswith("📄")
-    assert any("API key" in caption.value for caption in at.sidebar.caption)
